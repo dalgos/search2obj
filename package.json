@@ -1,9 +1,15 @@
 {
   "name": "search2obj",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert window location's search to Object",
   "main": "index.js",
   "repository": "git@github.com:dalgos/search2obj.git",
   "author": "dalgos <dalgos@dalgos.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
 }
